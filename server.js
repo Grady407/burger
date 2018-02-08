@@ -36,8 +36,11 @@ app.listen(PORT, function() {
 
 
 
+// ******************************************
 
-
+// For this assignment, I was unable to finish coding the functionality for adding new burgers and 
+// and devouring them.
+// **********************************************************
 
 
 
