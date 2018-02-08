@@ -1,6 +1,35 @@
 <div class="container">
     <div class="row">
-         <div class="col-md-12">Burgers!</div>
+         <div class="col-md-12"><h1>Burgers!</h1></div>
 
     </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <ul>
+  <ul>
+  {{#each burgers}}
+    <li>
+      <p>Burger: {{burger_name}}</p> <button>DEVOUR</button>
+
+    </li>
+  {{/each}}
+</ul>
+</ul>
+        </div>
+        <div class="col-md-4">
+            <form>
+                Create Your Own Burger!<br>
+                <input type="text" id="newburger">
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+         <div class="col-md-4">
+
+        </div>
+    </div>
+
+
 </div>
